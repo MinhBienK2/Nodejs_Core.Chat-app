@@ -102,7 +102,7 @@ $sendLocationButton.addEventListener('click',(e)=>{
 socket.emit('join',{username,room}, (error) => {
     if(error){
         alert(error)
-        location.href = "http://localhost:3000/html/index.html"
+        location.href = "http://localhost:3000"
     }
 })
 
